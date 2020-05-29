@@ -25,7 +25,7 @@ class cfgFactionClasses
 
 class cfgVehicleClasses
 {
-  class fox_units          
+  class fox_units
   {
     displayName="Men";
   };
@@ -81,7 +81,8 @@ class CfgVehicles{
   NEW_UNIFORM(8,Uniform 8,fox_camo8,8);
   NEW_UNIFORM(9,Uniform 9,fox_camo9,9);
   NEW_UNIFORM(10,Uniform 10,fox_camo10,10);
-
+  NEW_UNIFORM(_phil,[Custom] Phil,fox_camo_phil,phil);
+  NEW_UNIFORM(_assumaril,[Custom] Assumaril,fox_camo_assumaril,assumaril);
 };
 class cfgWeapons{
 	class ItemCore;
@@ -104,4 +105,6 @@ class cfgWeapons{
   NEW_UNIFORM_W(8,Uniform 8);
   NEW_UNIFORM_W(9,Uniform 9);
   NEW_UNIFORM_W(10,Uniform 10);
+	NEW_UNIFORM_W(_phil,[Custom] Phil);
+	NEW_UNIFORM_W(_assumaril,[Custom] Assumaril);
 };
